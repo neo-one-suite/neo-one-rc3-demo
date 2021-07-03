@@ -1,4 +1,4 @@
-/* @hash 490ea5e085d344818f41353a06f1d4de */
+/* @hash aa2bf64e33059d6bc1d9b0ee8b5c26cd */
 // tslint:disable
 /* eslint-disable */
 import { Client } from '@neo-one/client';
@@ -9,7 +9,7 @@ import { sourceMaps } from '../sourceMaps';
 const definition = {
   networks: {
     local: {
-      address: 'NbF8Q8cQpoyGP9rp4RKBPpR7q2HEn4upMM',
+      address: 'NRFYC9ErF3ZtLdRCDiHt4LkLQUMG5x3EbE',
     },
   },
   manifest: testTokenManifest,

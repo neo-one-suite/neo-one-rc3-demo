@@ -1,10 +1,11 @@
-/* @hash 3ebd320bca879fe02eac85658a1c2ac6 */
+/* @hash 4942a0fa75db6e9c9bb6274c9f85a5f4 */
 // tslint:disable
 /* eslint-disable */
 import { Client, DeveloperClients, DeveloperTools } from '@neo-one/client';
 import * as React from 'react';
 import { Contracts } from './contracts';
 import { createClient, createDeveloperClients } from './client';
+import { createTestICOSmartContract } from './TestICO/contract';
 import { createTestTokenSmartContract } from './TestToken/contract';
 
 export interface WithClients<TClient extends Client> {
@@ -34,6 +35,7 @@ export const ContractsProvider = <TClient extends Client>({
       value={{
         client,
         developerClients,
+        testIco: createTestICOSmartContract(client),
         testToken: createTestTokenSmartContract(client),
       }}
     >

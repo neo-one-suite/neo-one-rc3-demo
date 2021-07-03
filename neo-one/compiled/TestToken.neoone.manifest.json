@@ -1,0 +1,462 @@
+{
+  "name": "TestToken",
+  "groups": [],
+  "supportedStandards": [
+    "NEP-17"
+  ],
+  "abi": {
+    "methods": [
+      {
+        "name": "owner",
+        "parameters": [
+          {
+            "type": "String",
+            "name": "__neoonemethodstring"
+          }
+        ],
+        "returnType": {
+          "type": "Address",
+          "optional": false,
+          "forwardedValue": false
+        },
+        "constant": true,
+        "safe": true,
+        "offset": 0
+      },
+      {
+        "name": "name",
+        "parameters": [
+          {
+            "type": "String",
+            "name": "__neoonemethodstring"
+          }
+        ],
+        "returnType": {
+          "type": "String",
+          "optional": false,
+          "forwardedValue": false
+        },
+        "constant": true,
+        "safe": true,
+        "offset": 0
+      },
+      {
+        "name": "decimals",
+        "parameters": [
+          {
+            "type": "String",
+            "name": "__neoonemethodstring"
+          }
+        ],
+        "returnType": {
+          "type": "Integer",
+          "optional": false,
+          "decimals": 0,
+          "forwardedValue": false
+        },
+        "constant": true,
+        "safe": true,
+        "offset": 0
+      },
+      {
+        "name": "symbol",
+        "parameters": [
+          {
+            "type": "String",
+            "name": "__neoonemethodstring"
+          }
+        ],
+        "returnType": {
+          "type": "String",
+          "optional": false,
+          "forwardedValue": false
+        },
+        "constant": true,
+        "safe": true,
+        "offset": 0
+      },
+      {
+        "name": "totalSupply",
+        "parameters": [
+          {
+            "type": "String",
+            "name": "__neoonemethodstring"
+          }
+        ],
+        "constant": true,
+        "returnType": {
+          "type": "Integer",
+          "optional": false,
+          "decimals": 8,
+          "forwardedValue": false
+        },
+        "safe": true,
+        "offset": 0
+      },
+      {
+        "name": "balanceOf",
+        "parameters": [
+          {
+            "type": "String",
+            "name": "__neoonemethodstring"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "address"
+          }
+        ],
+        "returnType": {
+          "type": "Integer",
+          "optional": false,
+          "decimals": 8,
+          "forwardedValue": false
+        },
+        "constant": true,
+        "safe": true,
+        "offset": 0
+      },
+      {
+        "name": "approvedTransfer",
+        "parameters": [
+          {
+            "type": "String",
+            "name": "__neoonemethodstring"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "from"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "to"
+          }
+        ],
+        "returnType": {
+          "type": "Integer",
+          "optional": false,
+          "decimals": 8,
+          "forwardedValue": false
+        },
+        "constant": true,
+        "safe": true,
+        "offset": 0
+      },
+      {
+        "name": "transfer",
+        "parameters": [
+          {
+            "type": "String",
+            "name": "__neoonemethodstring"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "from"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "to"
+          },
+          {
+            "type": "Integer",
+            "optional": false,
+            "decimals": 8,
+            "forwardedValue": false,
+            "name": "amount"
+          }
+        ],
+        "returnType": {
+          "type": "Boolean",
+          "optional": false,
+          "forwardedValue": false
+        },
+        "constant": false,
+        "safe": false,
+        "offset": 0
+      },
+      {
+        "name": "approveSendTransfer",
+        "parameters": [
+          {
+            "type": "String",
+            "name": "__neoonemethodstring"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "from"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "to"
+          },
+          {
+            "type": "Integer",
+            "optional": false,
+            "decimals": 8,
+            "forwardedValue": false,
+            "name": "amount"
+          }
+        ],
+        "returnType": {
+          "type": "Boolean",
+          "optional": false,
+          "forwardedValue": false
+        },
+        "constant": false,
+        "safe": false,
+        "offset": 0
+      },
+      {
+        "name": "approveReceiveTransfer",
+        "parameters": [
+          {
+            "type": "String",
+            "name": "__neoonemethodstring"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "from"
+          },
+          {
+            "type": "Integer",
+            "optional": false,
+            "decimals": 8,
+            "forwardedValue": false,
+            "name": "amount"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "asset"
+          }
+        ],
+        "returnType": {
+          "type": "Boolean",
+          "optional": false,
+          "forwardedValue": false
+        },
+        "constant": false,
+        "safe": false,
+        "offset": 0
+      },
+      {
+        "name": "onNEP17Payment",
+        "parameters": [
+          {
+            "type": "String",
+            "name": "__neoonemethodstring"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "from"
+          },
+          {
+            "type": "Integer",
+            "optional": false,
+            "decimals": 8,
+            "forwardedValue": false,
+            "name": "amount"
+          },
+          {
+            "type": "Buffer",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "data"
+          }
+        ],
+        "returnType": {
+          "type": "Void",
+          "optional": false
+        },
+        "constant": false,
+        "safe": false,
+        "offset": 0
+      },
+      {
+        "name": "revokeSendTransfer",
+        "parameters": [
+          {
+            "type": "String",
+            "name": "__neoonemethodstring"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "from"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "to"
+          },
+          {
+            "type": "Integer",
+            "optional": false,
+            "decimals": 8,
+            "forwardedValue": false,
+            "name": "amount"
+          }
+        ],
+        "returnType": {
+          "type": "Boolean",
+          "optional": false,
+          "forwardedValue": false
+        },
+        "constant": false,
+        "safe": false,
+        "offset": 0
+      },
+      {
+        "name": "onRevokeSendTransfer",
+        "parameters": [
+          {
+            "type": "String",
+            "name": "__neoonemethodstring"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "from"
+          },
+          {
+            "type": "Integer",
+            "optional": false,
+            "decimals": 8,
+            "forwardedValue": false,
+            "name": "amount"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "asset"
+          }
+        ],
+        "returnType": {
+          "type": "Void",
+          "optional": false
+        },
+        "constant": false,
+        "safe": false,
+        "offset": 0
+      },
+      {
+        "name": "deploy",
+        "parameters": [
+          {
+            "type": "String",
+            "name": "__neoonemethodstring"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "owner"
+          }
+        ],
+        "returnType": {
+          "type": "Boolean"
+        },
+        "safe": false,
+        "offset": 0
+      }
+    ],
+    "events": [
+      {
+        "name": "Transfer",
+        "parameters": [
+          {
+            "type": "Address",
+            "optional": true,
+            "forwardedValue": false,
+            "name": "from"
+          },
+          {
+            "type": "Address",
+            "optional": true,
+            "forwardedValue": false,
+            "name": "to"
+          },
+          {
+            "type": "Integer",
+            "optional": false,
+            "decimals": 8,
+            "forwardedValue": false,
+            "name": "amount"
+          }
+        ]
+      },
+      {
+        "name": "approveSendTransfer",
+        "parameters": [
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "from"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "to"
+          },
+          {
+            "type": "Integer",
+            "optional": false,
+            "decimals": 8,
+            "forwardedValue": false,
+            "name": "amount"
+          }
+        ]
+      },
+      {
+        "name": "revokeSendTransfer",
+        "parameters": [
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "from"
+          },
+          {
+            "type": "Address",
+            "optional": false,
+            "forwardedValue": false,
+            "name": "to"
+          },
+          {
+            "type": "Integer",
+            "optional": false,
+            "decimals": 8,
+            "forwardedValue": false,
+            "name": "amount"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": [],
+  "trusts": "*"
+}

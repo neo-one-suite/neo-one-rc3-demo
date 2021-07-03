@@ -1,0 +1,379 @@
+{
+  "hash": "0x49c5fc97f47e148bc9a126371d52cd60fd3a348c",
+  "documents": [
+    "/Users/spencercorwin/neo-one-rc3-demo/neo-one/contracts/TestICO.ts"
+  ],
+  "methods": [
+    {
+      "name": "TestICO,@Jmp_L",
+      "id": "0",
+      "range": "0-4",
+      "params": [
+        "operation,String",
+        "args,Array"
+      ],
+      "return": "",
+      "variables": [],
+      "sequence-points": []
+    },
+    {
+      "name": "TestICO,@Dispatcher",
+      "id": "1",
+      "range": "31659-38465",
+      "params": [
+        "operation,String",
+        "args,Array"
+      ],
+      "return": "",
+      "variables": [],
+      "sequence-points": []
+    },
+    {
+      "id": "2",
+      "name": "TestICO,name",
+      "range": "9-54",
+      "params": [],
+      "return": "String",
+      "variables": [],
+      "sequence-points": []
+    },
+    {
+      "id": "3",
+      "name": "TestICO,decimals",
+      "range": "55-104",
+      "params": [],
+      "return": "Integer",
+      "variables": [],
+      "sequence-points": []
+    },
+    {
+      "id": "4",
+      "name": "TestICO,symbol",
+      "range": "105-152",
+      "params": [],
+      "return": "String",
+      "variables": [],
+      "sequence-points": []
+    },
+    {
+      "id": "5",
+      "name": "TestICO,icoStartTimeSeconds",
+      "range": "153-213",
+      "params": [],
+      "return": "Integer",
+      "variables": [],
+      "sequence-points": []
+    },
+    {
+      "id": "6",
+      "name": "TestICO,icoDurationSeconds",
+      "range": "214-273",
+      "params": [],
+      "return": "Integer",
+      "variables": [],
+      "sequence-points": []
+    },
+    {
+      "id": "7",
+      "name": "TestICO,amountPerNEO",
+      "range": "274-327",
+      "params": [],
+      "return": "Integer",
+      "variables": [],
+      "sequence-points": []
+    },
+    {
+      "id": "8",
+      "name": "TestICO,owner",
+      "range": "328-374",
+      "params": [],
+      "return": "Address",
+      "variables": [],
+      "sequence-points": []
+    },
+    {
+      "id": "9",
+      "name": "TestICO,totalSupply",
+      "range": "375-518",
+      "params": [],
+      "return": "Integer",
+      "variables": [],
+      "sequence-points": [
+        "375[0]72:0-72:0",
+        "426[0]74:0-74:0"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "TestICO,balanceOf",
+      "range": "519-29374",
+      "params": [
+        "address,Address"
+      ],
+      "return": "Integer",
+      "variables": [],
+      "sequence-points": [
+        "519[0]77:0-77:0",
+        "549[0]78:0-78:0",
+        "1443[0]79:0-79:0",
+        "1543[0]81:0-81:0"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "TestICO,approvedTransfer",
+      "range": "1676-20122",
+      "params": [
+        "from,Address",
+        "to,Address"
+      ],
+      "return": "Integer",
+      "variables": [],
+      "sequence-points": [
+        "1676[0]84:0-84:0",
+        "1706[0]85:0-85:0",
+        "2767[0]86:0-86:0",
+        "2867[0]88:0-88:0"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "TestICO,transfer",
+      "range": "3755-13050",
+      "params": [
+        "from,Address",
+        "to,Address",
+        "amount,Integer"
+      ],
+      "return": "Boolean",
+      "variables": [],
+      "sequence-points": [
+        "3755[0]91:0-91:0",
+        "4133[0]92:0-92:0",
+        "4468[0]93:0-93:0",
+        "5585[0]96:0-96:0",
+        "5640[0]97:0-97:0",
+        "5658[0]98:0-98:0",
+        "6737[0]101:0-101:0",
+        "6935[0]102:0-102:0",
+        "7134[0]103:0-103:0",
+        "7152[0]104:0-104:0",
+        "7248[0]107:0-107:0",
+        "7474[0]108:0-108:0",
+        "7767[0]109:0-109:0",
+        "8325[0]110:0-110:0",
+        "8343[0]111:0-111:0",
+        "9391[0]115:0-115:0",
+        "9403[0]116:0-116:0",
+        "9977[0]117:0-117:0",
+        "11112[0]118:0-118:0",
+        "11401[0]119:0-119:0",
+        "11695[0]120:0-120:0",
+        "11707[0]121:0-121:0",
+        "12254[0]124:0-124:0",
+        "12268[0]125:0-125:0",
+        "12918[0]128:0-128:0"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "TestICO,approveSendTransfer",
+      "range": "13129-16746",
+      "params": [
+        "from,Address",
+        "to,Address",
+        "amount,Integer"
+      ],
+      "return": "Boolean",
+      "variables": [],
+      "sequence-points": [
+        "13129[0]131:0-131:0",
+        "13160[0]132:0-132:0",
+        "13293[0]133:0-133:0",
+        "13426[0]134:0-134:0",
+        "13454[0]135:0-135:0",
+        "13508[0]136:0-136:0",
+        "13843[0]137:0-137:0",
+        "14100[0]140:0-140:0",
+        "14118[0]141:0-141:0",
+        "14125[0]144:0-144:0",
+        "14198[0]145:0-145:0",
+        "14234[0]146:0-146:0",
+        "16355[0]148:0-148:0",
+        "16614[0]150:0-150:0"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "TestICO,approveReceiveTransfer",
+      "range": "16747-17188",
+      "params": [
+        "from,Address",
+        "amount,Integer",
+        "asset,Address"
+      ],
+      "return": "Boolean",
+      "variables": [],
+      "sequence-points": [
+        "16747[0]153:0-153:0",
+        "16778[0]154:0-154:0",
+        "16911[0]155:0-155:0",
+        "16938[0]156:0-156:0",
+        "17085[0]158:0-158:0"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "TestICO,onNEP17Payment",
+      "range": "17189-17648",
+      "params": [
+        "from,Address",
+        "amount,Integer",
+        "data,Buffer"
+      ],
+      "return": "Void",
+      "variables": [],
+      "sequence-points": [
+        "17189[0]161:0-161:0",
+        "17220[0]162:0-162:0",
+        "17353[0]163:0-163:0",
+        "17380[0]164:0-164:0",
+        "17477[0]166:0-166:0"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "TestICO,revokeSendTransfer",
+      "range": "18055-22255",
+      "params": [
+        "from,Address",
+        "to,Address",
+        "amount,Integer"
+      ],
+      "return": "Boolean",
+      "variables": [],
+      "sequence-points": [
+        "18055[0]169:0-169:0",
+        "18086[0]170:0-170:0",
+        "18219[0]171:0-171:0",
+        "18352[0]172:0-172:0",
+        "18380[0]173:0-173:0",
+        "18434[0]174:0-174:0",
+        "18769[0]175:0-175:0",
+        "19026[0]178:0-178:0",
+        "19044[0]179:0-179:0",
+        "20123[0]182:0-182:0",
+        "20178[0]183:0-183:0",
+        "20196[0]184:0-184:0",
+        "20203[0]187:0-187:0",
+        "20844[0]188:0-188:0",
+        "21178[0]190:0-190:0",
+        "21245[0]191:0-191:0",
+        "21541[0]192:0-192:0",
+        "21553[0]194:0-194:0",
+        "22123[0]197:0-197:0"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "TestICO,onRevokeSendTransfer",
+      "range": "22256-22676",
+      "params": [
+        "from,Address",
+        "amount,Integer",
+        "asset,Address"
+      ],
+      "return": "Void",
+      "variables": [],
+      "sequence-points": [
+        "22256[0]200:0-200:0",
+        "22287[0]201:0-201:0",
+        "22420[0]202:0-202:0",
+        "22447[0]203:0-203:0"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "TestICO,remaining",
+      "range": "22677-27980",
+      "params": [],
+      "return": "Integer",
+      "variables": [],
+      "sequence-points": [
+        "22677[0]227:0-227:0",
+        "22732[0]229:0-229:0"
+      ]
+    },
+    {
+      "id": "19",
+      "name": "TestICO,mintTokens",
+      "range": "23096-31524",
+      "params": [],
+      "return": "Void",
+      "variables": [],
+      "sequence-points": [
+        "23096[0]232:0-232:0",
+        "24072[0]233:0-233:0",
+        "24126[0]234:0-234:0",
+        "26156[0]237:0-237:0",
+        "22825[0]238:0-238:0",
+        "22860[0]239:0-239:0",
+        "26232[0]241:0-241:0",
+        "26286[0]242:0-242:0",
+        "26396[0]245:0-245:0",
+        "26421[0]246:0-246:0",
+        "26446[0]248:0-248:0",
+        "27629[0]249:0-249:0",
+        "27634[0]250:0-250:0",
+        "28003[0]254:0-254:0",
+        "28057[0]255:0-255:0",
+        "28133[0]258:0-258:0",
+        "28259[0]259:0-259:0"
+      ]
+    },
+    {
+      "id": "20",
+      "name": "TestICO,getICOAmount",
+      "range": "31525-31658",
+      "params": [],
+      "return": "Integer",
+      "variables": [],
+      "sequence-points": [
+        "31525[0]262:0-262:0",
+        "31569[0]263:0-263:0"
+      ]
+    }
+  ],
+  "static-variables": [
+    "scope,Array,0"
+  ],
+  "events": [
+    {
+      "id": "21",
+      "name": "TestICO-Transfer",
+      "params": [
+        "from,Address",
+        "to,Address",
+        "amount,Integer"
+      ]
+    },
+    {
+      "id": "22",
+      "name": "TestICO-approveSendTransfer",
+      "params": [
+        "from,Address",
+        "to,Address",
+        "amount,Integer"
+      ]
+    },
+    {
+      "id": "23",
+      "name": "TestICO-revokeSendTransfer",
+      "params": [
+        "from,Address",
+        "to,Address",
+        "amount,Integer"
+      ]
+    }
+  ]
+}
